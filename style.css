@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600,800');
+/*body {
+font-family: 'Montserrat', sans-serif;
+font-size: 200%;
+color: #fff;
+}
+
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  transition: all 0.5s linear;
+  transform: scale3d(1, 1, 1);
+}
+ */
+
+/*body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  transition: all 0.5s linear;
+  transform: scale3d(1, 1, 1);
+}
+
+*/
+
+.navbar {
+  background-color: #57068c;
+  border-bottom: 1px solid #7908c4;
+  padding: 1% 0;
+}
+
+.navbar-brand {
+  min-height: 55px;
+  padding: 5 15px 5px;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.navbar-inverse .navbar-nav li a {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+  background-color: #7908c4;
+}
+
+.navbar-header {
+  padding-bottom: 2px;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #7908c4;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #7908c4;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #7908c4;
+}
+
+/* p {
+	padding: 30px 70px;
+	font-size: 100%;
+}
+
+img {
+	margin: 0 auto;
+}
+
+img-responsive {
+	margin: 0 auto;
+}
+
+#home {
+	padding-top: 60px;
+}
+
+*/
+
+/*#CIO {
+	padding: 70px 0;
+	background-color: #57068c;
+}
+
+#icon {
+	max-width: 200px;
+	margin: 1% auto;
+}
+
+.social {
+	font-size: 500%;
+}
+
+.social a {
+	padding: 3%;
+	color: #fff;
+}
+
+.social a:hover {
+	color: #d5d5d5;
+}
+
+.hr {
+	width: 30px;
+}
+
+
+.title-button {
+  position: absolute;
+  top: 30px;
+  right: 100px;
+  max-width: 380px;
+  line-height: initial;
+  padding: 0 15px;
+}
+
+.accordion-item h1 {
+  font-size: 42px;
+  color: #fff;
+  text-shadow: 1px 1px 10px #333;
+}
+
+.accordion-item__image {
+  position: relative;
+  overflow: hidden;
+  line-height: 0;
+}
+.accordion-item__image::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%);
+  opacity: 0;
+  transition: all 0.25s ease-in-out;
+}
+
+.accordion-item__text {
+  padding: 30px 50px;
+  display: none;
+}
+
+.js-accordion {
+  position: absolute;
+  bottom: -30px;
+  opacity: 0;
+  left: 15px;
+  z-index: 1;
+  transition: all 0.25s ease-in-out;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+  text-shadow: 1px 1px 10px #333;
+  padding: 0;
+}
+
+.js-accordion:focus {
+  outline: none;
+}
+
+.accordion-item:hover .js-accordion {
+  bottom: -10px;
+  opacity: 1;
+}
+
+.accordion-item:hover .accordion-item__image img {
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+.accordion-item.active .accordion-item__image::after {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+  .js-accordion {
+    font-size: 14px;
+    opacity: 1;
+    bottom: -10px;
+  }
+
+  */
+
+#home {
+  padding-top: 60px;
+  p {
+    font-size: 16px;
+  }
+  .accordion-item h1 {
+    font-size: 20px;
+  }
+  .accordion-item__text {
+    background-color: #fff;
+    text-align: left;
+  }
+}
+
+.hr {
+  width: 30px;
+  color: #000;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  transition: all 0.5s linear;
+  transform: scale3d(1, 1, 1);
+}
+
+.title-button {
+  position: absolute;
+  top: 30px;
+  right: 100px;
+  max-width: 450px;
+  line-height: initial;
+  padding: 0 15px;
+}
+
+.accordion-item {
+  margin: 0 -15px;
+}
+
+.accordion-item h1 {
+  font-size: 42px;
+  color: #fff;
+  text-shadow: 1px 1px 10px #333;
+  text-align: left;
+}
+
+.accordion-item__image {
+  position: relative;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.accordion-item__image::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 1%;
+  opacity: 0;
+  transition: all 0.25s ease-in-out;
+  box-shadow: 0 0 7px #000;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%);
+}
+
+span.arrow {
+  background: url('https://www.btplc.com/Sharesandperformance/Annualreportandreview/2015summary/images/dist/png/lines_business_arrow.png') no-repeat;
+  bottom: -39px;
+  content: '';
+  height: 22px;
+  left: 49%;
+  position: absolute;
+  width: 22px;
+  z-index: 3;
+  top: -11px;
+}
+
+.accordion-item__text {
+  position: relative;
+}
+
+.toplclosebtn {
+  top: 4px;
+  bottom: unset !important;
+}
+
+.blacktext {
+  color: #000 !important;
+  text-shadow: none !important;
+  font-weight: bold;
+}
+
+.accordion-item__text {
+  padding: 30px 50px;
+  text-align: justify;
+  display: none;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.js-accordion {
+  position: absolute;
+  left: 15px;
+  bottom: -20px;
+  z-index: 1;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+  text-shadow: 1px 1px 10px #333;
+  padding: 0;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.25s ease-in-out;
+}
+
+.js-accordion--close {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  z-index: 1;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.25s ease-in-out;
+}
+
+.js-accordion:focus,
+.js-accordion--close:focus {
+  outline: none;
+}
+
+.accordion-item:hover .accordion-item__image img {
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+.accordion-item.active .accordion-item__image::after {
+  opacity: 1;
+}
+
+.accordion-item.active .js-accordion--close {
+  opacity: 1;
+  visibility: visible;
+}
+
+.accordion-item.active .js-accordion {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.accordion-simple {
+  display: none;
+}
+
+.js-accordion--simple {
+  background: transparent;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.cio-text {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.cio-section img {
+  padding-bottom: 20px;
+}
+
+h2 {
+  color: #000;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .js-accordion {
+    font-size: 14px;
+  }
+  .js-accordion--close {
+    font-size: 14px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .accordion-item h1 {
+    font-size: 20px;
+  }
+  .accordion-item__text {
+    padding: 10px 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mobilebtn {
+    left: 148px;
+    right: 0px;
+  }
+  .title-button{
+    top:10px;
+  }
+}
+
+img.gridimg {
+  border: 0px;
+  border-radius: 0px;
+}
